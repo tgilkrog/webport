@@ -1,0 +1,27 @@
+<div (click)="activateMenu()" id="wrapper">
+  <div class="icon" id="icon">
+    <span class="line top"></span>
+    <span class="line middle"></span>
+    <span class="line bottom"></span>
+  </div>
+</div>
+
+<div class="menu" id="menu">
+  <div class="leftside" id="leftside">
+    <h1>Thais <div style="color: #802BB1; display: inline-block;">Gilkrog</div>
+    </h1>
+    <div class="portrait"></div>
+  </div>
+
+  <div class="rightside" id="rightside">
+    <ul>
+      <li>
+        <h1><a routerLink="/Forside" class="nav-link" (click)="activateMenu()">Forside</a></h1>
+        <h1><a routerLink="/Uddannelse" (click)="activateMenu()">Uddannelse</a></h1>
+        <h1><a routerLink="/Kompetencer" (click)="activateMenu()">Kompetencer</a></h1>
+        <h1><a routerLink="/Projekter" (click)="activateMenu()">Projekter</a></h1>
+        <h1><a routerLink="/Om Mig" (click)="activateMenu()">Om Mig</a></h1>
+      </li>
+    </ul>
+  </div>
+</div>

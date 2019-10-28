@@ -1,0 +1,58 @@
+<div class="content">
+  <h1 class="title">Mine <div style="color:#802BB1; display: inline-block;">Projekter</div>
+  </h1>
+
+  <label class="container">Projekter
+    <input type="radio" checked="checked" name="radio" (click)="getSemester()">
+    <span class="checkmark"></span>
+  </label>
+  <label class="container">Opgaver
+    <input type="radio" name="radio" (click)="getOpgaver()">
+    <span class="checkmark"></span>
+  </label>
+  <label class="container">Spil
+    <input type="radio" name="radio" (click)="getGames()">
+    <span class="checkmark"></span>
+  </label>
+
+  <div style="height: auto; width: 1000px; margin-bottom: 50px; margin-left: auto; margin-right: auto;">
+    <h1>Nyeste</h1>
+    <div @fadeIn class="item" id="item2">
+      <h1 class="codeText">
+        {{this.Opgave.mainCode}}</h1>
+      <img src="{{this.Opgave.image}}" alt="project">
+      <div class="overlay">
+        <div class="text">
+          <h1>{{this.Opgave.name}}</h1>
+          <p>{{this.Opgave.smallDesc}}</p>
+          <div class="buttons">
+            <a routerLink="/Projekter/{{Opgave.id}}" class="btn btn2"><i class="fas fa-eye fa-1x"></i>
+              Mere Info</a>
+            <a href="{{Opgave.github}}" target="_blank" class="btn btn2"><i class="fab fa-github fa-1x"></i>
+              Github</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="projects">
+    <div *ngFor="let project of projects.reverse()" @fadeIn class="item">
+      <h1 class="codeText">
+        {{project.mainCode}}</h1>
+      <img src="{{project.image}}" alt="project">
+      <div class="overlay">
+        <div class="text">
+          <h1>{{project.name}}</h1>
+          <p>{{project.smallDesc}}</p>
+          <div class="buttons">
+            <a routerLink="/Projekter/{{project.id}}" class="btn btn2"><i class="fas fa-eye fa-1x"></i>
+              Mere Info</a>
+            <a href="{{project.github}}" target="_blank" class="btn btn2"><i class="fab fa-github fa-1x"></i>
+              Github</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,227 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "name": "Lagrings program",
+            "mainCode": "Java",
+            "github": "https://github.com/tgilkrog/Portfolio/tree/master/1.%20Semester%20Projekt",
+            "smallDesc": "Et simpelt lagrings program, som havde en text baseret UI.",
+            "description": "Dette var et meget simpelt lager styrings program laver i java. Programmet havde kun en tekst baseret ui som var lavet i BlueJ. Man kunne kun navigere rundt i de forskellige menuer, ved hjælp af tekst, og man kunne tilføje nye produkter til lageret. ",
+            "image": "/assets/Projects/s1-img3.PNG",
+            "imageList": [
+                "/assets/Projects/5front.PNG",
+                "/assets/Projects/5front.PNG"
+            ],
+            "teknologies": [
+                "Java",
+                "Singleton",
+                "Tre-lags arkitektur",
+                "Bluej",
+                "Unified Process"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Ruteplanlægning",
+            "mainCode": "Java",
+            "github": "https://github.com/tgilkrog/Portfolio/tree/master/2.%20Semester%20Projekt",
+            "smallDesc": "En ruteplanlægnings program til lastbiler, hvor den tog forskellige kriterier til at finde den bedste vej",
+            "description": "Dette projekt gik ud på at lave et ruteplanlægnings program til lastbilchaufføre, som brugte søge algoriten A*, til at finde den hurtigste vej mellem forskellige punkter. Vi tilføjede en række ekstra kriterier såsom hvis der var en bro på vejen der var for lav til at lastbilen kunne køre under. Der var også et kriterie såsom aksel trykket på vejen. ",
+            "image": "/assets/Projects/s2-img1.PNG",
+            "imageList": [
+                "/assets/Projects/5front.PNG",
+                "/assets/Projects/5front.PNG"
+            ],
+            "teknologies": [
+                "Java",
+                "Eclipse",
+                "MSSQL",
+                "singleton",
+                "Brugervenlighed",
+                "A* Søge algoritme",
+                "Info om Lastbilchaufføre regler"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Drinkzy",
+            "mainCode": "C#",
+            "github": "https://github.com/tgilkrog/Portfolio/tree/master/3.%20Semester%20Projekt",
+            "smallDesc": "En webside hvor man kunne vælge en bar og købe og betale for drinks.",
+            "description": "Dette var mit fjerde semester projekt hvor jeg havde taget speciale i gaming. Formålet med dette projekt var at lave et gyser spil, hvor der blev kigget på hvor mange elementer der skulle til at for at spillet blev mere uhyggeligt. For eksemepl havde den første bane ikke nogle lyde og var meget lys. Bane to blev gjort mørkere, og bane tre blev der tilføjet ekstra lyde til spillet, og der blev tilføjet en fjende i nogle baner osv. ",
+            "image": "/assets/Projects/s3-img2.PNG",
+            "imageList": [
+                "/assets/Projects/5front.PNG",
+                "/assets/Projects/5front.PNG"
+            ],
+            "teknologies": [
+                "MVC",
+                "WCF",
+                "C#",
+                "asp.net",
+                "Javascript",
+                "Html",
+                "CSS"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Gyser Spil",
+            "mainCode": "Unity",
+            "github": "https://drive.google.com/drive/folders/1YluhsVlsDv3bGSGtSeh0-kK1fndDlMos",
+            "smallDesc": "En gyserspil hvor vi testede hvor mange elementer der skulle til for at gøre det mere uhyggeligt.",
+            "description": "Dette projekt var lavet med den ide at det skulle være nemmere at købe drinks når man var i byen. Der blev bygget en webside, hvor man som forbruger kunne oprette sig, og derefter gå ind på en bar af eget valg og bestille og betale for forskellige drinks, på denne måde slippede man for at stå i kø i baren, og skulle betale kontant. Derudover var der lavet et windows program til vores kunder, hvor de kunne gå ind på deres bar og tilføje nye produkter og tilføje mere til deres lager.",
+            "image": "/assets/Projects/s4-img7.png",
+            "imageList": [
+                "/assets/Projects/5front.PNG",
+                "/assets/Projects/5front.PNG"
+            ],
+            "teknologies": [
+                "Unity",
+                "C#",
+                "Teori omkring Gys",
+                "Uncanny Valley"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "DrinKing",
+            "mainCode": "C#",
+            "github": "https://github.com/tgilkrog/Portfolio/tree/master/5.%20Semester%20Projekt",
+            "smallDesc": "En webside hvor man kunne se forskellige bar's begivenheder",
+            "description": "Dette var det sidste projekt jeg lavede på min uddannelse som Datamatiker. Ideen var at denne webside skulle give et nemt overblik over forskellige bares, klubber og bodegaers begivenheder/arrengementer. En person skulle kunne oprette sig på vores side og derved tilmelde sig diverse begivenheder og få notifikationer fra baren om hvornår den startede, og hvornår en ny begivenhed blev oprettet. En bar skulle også kunne oprette sig som bruger, og oprette nye begivenheder, og se hvor mange personer var tilmeldt en given begivenhed. De kunne også oprette nyheder omkring deres bar, det kunne være en ny drink de havde fået.",
+            "image": "/assets/Projects/5front.PNG",
+            "imageList": [
+                "/assets/Projects/5front.PNG",
+                "/assets/Projects/5front.PNG"
+            ],
+            "teknologies": [
+                "Angular",
+                "C#",
+                "web api",
+                "asp.net",
+                "MSSQL",
+                "Sql Scripts",
+                "HTML",
+                "CSS",
+                "Visual Studio"
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Web Portfolio",
+            "mainCode": "Angular",
+            "github": "https://github.com/tgilkrog/Portfolio/tree/master/5.%20Semester%20Projekt",
+            "smallDesc": "Mit eget webportfolio, hvor man kan læse om mig og se projekter jeg har lavet",
+            "description": "Dette er et web portfolio som jeg selv har lavet helt fra bunden, her kan man læse lidt om mig, mine uddannelser og kompetencer. Jeg har også lavet en oversigt over projekter som jeg har været med til at lave, og der er selvfølgelig github links så man kan se lidt af koden.",
+            "image": "/assets/Projects/webport1.PNG",
+            "imageList": [
+                "/assets/Projects/webport1.PNG",
+                "/assets/Projects/webport1.PNG"
+            ],
+            "teknologies": [
+                "Angular",
+                "HTML",
+                "CSS",
+                "Json",
+                "Visual Studio Code"
+            ]
+        }
+    ],
+    "opgaver": [
+        {
+            "id": 6,
+            "name": "Currency Converter",
+            "mainCode": "PHP",
+            "github": "https://github.com/tgilkrog/currencyconverter",
+            "smallDesc": "En lille valuta konverter lavet i PHP med laravel",
+            "description": "Dette var en lille opgave som jeg lavede for at prøve lidt Laravel med PHP. Den tager sine valuta kurser fra ecb.erupa.eu og gemmer det i en xml fil, hvor denne fil bruges i noget tid.",
+            "image": "/assets/Projects/ccFront.PNG",
+            "imageList": [
+                "/assets/Projects/ccFront.PNG",
+                "/assets/Projects/ccfront.PNG"
+            ],
+            "teknologies": [
+                "PHP",
+                "Laravel",
+                "XML",
+                "Caching"
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Php-Crud",
+            "mainCode": "PHP",
+            "github": "https://github.com/tgilkrog/Portfolio/tree/master/Opgaver/php-crud",
+            "smallDesc": "En simpel opgave med php crud til en mysql database",
+            "description": "Dette var en lille opgave hvor du kan tilføje en ny person til mysql database, slette og ændre i dem.",
+            "image": "/assets/Projects/phpcrud.PNG",
+            "imageList": [
+                "/assets/Projects/phpcrud.PNG",
+                "/assets/Projects/phpcrud.PNG"
+            ],
+            "teknologies": [
+                "PHP",
+                "CRUD",
+                "MySql"
+            ]
+        }
+    ],
+    "games": [
+        {
+            "id": 8,
+            "name": "Endless Runner",
+            "mainCode": "Phaser",
+            "github": "https://github.com/tgilkrog/Portfolio/tree/master/Games/EndlessRunner",
+            "smallDesc": "Et lille endless runner spil lavet med Phaser.io",
+            "description": "Dette spil er lavet med Phaser.io, hvor det gælder om at komme så langt man kan og samle så mange mønter som muligt. De forskellige platform er automatisk genereret, og banen kan derfor godt blive en anelse ufair",
+            "image": "/assets/Projects/er-img1.png",
+            "imageList": [
+                "/assets/Projects/5front.PNG",
+                "/assets/Projects/5front.PNG"
+            ],
+            "teknologies": [
+                "Phaser.io",
+                "Javascript",
+                "HTML5"
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Evil Girl",
+            "mainCode": "Unity",
+            "github": "https://github.com/tgilkrog/Portfolio/tree/master/Games/Evil%20Girl",
+            "smallDesc": "Et 2D platformer spil lavet i Unity, hvor du kan level op og få nye krafter",
+            "description": "Dette spil er lavet i Unity med færdig lavet assets. Man spiller en ond pige som slår skovens dyr ihjel, og tager deres blod for at stige i level og opnå nye evner såsom at flyve.",
+            "image": "/assets/Projects/eg-img1.png",
+            "imageList": [
+                "/assets/Projects/5front.PNG",
+                "/assets/Projects/5front.PNG"
+            ],
+            "teknologies": [
+                "Unity",
+                "C#",
+                "Sprites",
+                "Scripts"
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Cubey",
+            "mainCode": "Unity",
+            "github": "https://github.com/tgilkrog/Portfolio/tree/master/Games/Cubey",
+            "smallDesc": "Et spil lavet i Unity hvor du er en firkant der skal undgå forskellige forhindringer",
+            "description": "Dette er et af de første spil jeg lavede i unity. Man køre automatisk fremad, og du bruger space knappen til at undgå diverse forhindringer, der er tilmed nogle små power ups i nogle af banerne hvor man bliver udødelig i nogle sekunder.",
+            "image": "/assets/Projects/cy-img1.png",
+            "imageList": [
+                "/assets/Projects/5front.PNG",
+                "/assets/Projects/5front.PNG"
+            ],
+            "teknologies": [
+                "Unity",
+                "C#",
+                "scripts"
+            ]
+        }
+    ]
+}

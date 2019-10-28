@@ -1,0 +1,16 @@
+.wrapper{
+    height: 100%;
+    width: 100%;
+}
+
+router-outlet{
+    display: none;
+}
+
+.routeContainer{
+    display: relative;
+}
+
+.routeContainer>*{
+    display: block;
+}

@@ -1,0 +1,22 @@
+<div class="content">
+    <h1>{{project.name}}</h1>
+    <a routerLink="/Projekter" class="btn btn1"><i class="fas fa-arrow-left fa-1x"></i> Tilbage til Projecter</a> <br />
+    <div class="left" style="margin-top: 30px;">
+        <img mat-card-image src="{{project.image}}">
+    </div>
+
+    <div class="left">
+        <h2>Beskrivelse:</h2>
+        <p>{{project.description}}</p>
+        <h2>Teknologier</h2>
+        <ul class="tek" *ngFor="let item of project.teknologies">
+            <li>
+                <h3>{{item}}</h3>
+            </li>
+        </ul>
+
+        <p>Her er et link hvis du vil se lidt kode.</p>
+        <a href="{{project.github}}" target="_blank" class="btn btn1"><i class="fab fa-github fa-1x"></i>
+            Github</a>
+    </div>
+</div>

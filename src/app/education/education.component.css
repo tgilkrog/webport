@@ -1,0 +1,110 @@
+.content h1{
+    font-size: 60px;
+    color: #D1D7E0;
+}
+
+.content div{
+    display: inline-block;
+}
+
+.wrapper h1{
+    color: #802BB1;
+    font-size: 40px;
+    margin: 0;
+}
+
+.wrapper h2{
+    color: #D1D7E0;
+    font-size: 20px;
+    margin: 0;
+    padding: 0px 0px 0px 20px;
+}
+
+h3{
+    font-size: 17px;
+    padding: 0px 0px 0px 40px;
+}
+
+a{
+    color: #802BB1;
+    font-size: 20px;
+}
+
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.education-info{
+    margin: 0 auto;
+    float: left;
+    margin-bottom: 25px;
+    border-bottom: 4px solid rgba(128,43,177,0.8);      
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+#first{
+    width: 80%;
+}
+  
+#second {
+    animation-delay: 0.2s;
+    margin-left: 6vw;
+    width: 80%;
+}
+  
+#third {
+    animation-delay: 0.4s;
+    margin-left: 12vw;
+    width: 80%;
+}
+
+#fourth{
+    animation-delay: 0.6s;
+    margin-left: 18vw;
+    width: 80%;
+}
+
+@media only screen and (max-width: 1000px){
+    #second{
+        margin-left: 30px;
+    }
+
+    #third{
+        margin-left: 60px;
+    }
+
+    #fourth{
+        margin-left: 90px;
+    }
+
+    .content{
+        padding: 1px 25px 0px 25px;
+    }
+
+}
+
+@media only screen and (max-width: 500px){
+    #first, #second, #third, #fourth{
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .content{
+        padding: 1px 5px 0px 5px;
+    }
+
+    .content h1{
+        font-size: 40px;
+    }
+
+    .content div{
+        display: block;
+    }
+}

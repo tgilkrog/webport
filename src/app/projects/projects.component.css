@@ -1,0 +1,222 @@
+.title{
+    font-size: 60px;
+    border-bottom: none;
+}
+
+h1{
+    font-size: 30px;
+    border-bottom: 4px solid rgba(128,43,177,0.8);
+}
+
+.codeText{
+    position:absolute; 
+    padding: 5px 5px 5px 5px !important; 
+    font-size: 30px !important; 
+    border: none; 
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.7);
+}
+
+
+.btn2{
+    padding: 0.5rem 1rem;
+    font-size: 16px;
+}
+
+.btn2::before{
+    width: 100%;
+    height: 0;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.btn2:hover::before{
+    height: 500%;
+}
+
+.projects{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0px 0px 20px 0px;
+}
+
+.item{
+    position: relative;
+    animation: fadeIn 1s ease-in both;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+}
+
+.item h1{
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.item > img{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    max-height: 250px;
+}
+
+#item2 > img{
+    max-height: 350px;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 100%;
+    background-color: rgba(0,0,0, 0.90);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+
+.item:hover .overlay{
+    bottom: 0;
+    height: 100%;
+}
+
+.text {
+    color: #D1D7E0;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    width: 90%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.buttons{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.container {
+    display: inline-block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #D1D7E0;
+    padding-right: 20px;
+}
+
+label:hover{
+    color: #802BB1;
+}
+  
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  /* Create a custom radio button */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #D1D7E0;
+    border-radius: 50%;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: #802BB1;
+  }
+
+  input[type=radio]:checked ~ label{
+    color: #0DFF92;
+  }
+  
+  /* When the radio button is checked, add a background */
+  .container input:checked ~ .checkmark {
+    background-color: #802BB1;
+  }
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the indicator (dot/circle) */
+  .container .checkmark:after {
+       top: 9px;
+      left: 9px;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #D1D7E0;
+  }
+
+@media only screen and (max-width: 1590px){
+    .item h1{
+        font-size: 35px;
+    }
+    .text{
+        font-size: 15px;
+    }
+
+    .btn2{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 1390px){
+    .item h1{
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 1100px){
+    .content{
+        padding: 1px 25px 0px 25px;
+    }
+    
+    .projects{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    p{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 734px){
+    .content{
+        padding: 1px 5px 0px 5px;
+    }
+
+    .projects{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .btn1{
+        padding: 6px 20px;
+        font-size: 14px;
+        margin: 0 4px;
+    }
+}

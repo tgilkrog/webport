@@ -1,0 +1,100 @@
+h1{
+    font-size: 60px;
+}
+
+h2{
+    color: #802bb1;
+    margin: 0;
+    padding: 0;
+}
+
+.about-info{
+    display: grid;
+    grid-gap: 30px;
+    grid-template-areas: 
+    'portrait bio bio';
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.portrait {
+    grid-area: portrait;
+    margin: auto;
+    width: 300px;
+    height: 350px;
+    background: url("/assets/tg4.jpg");
+    background-size: cover;
+    transition: all 0.5s ease-out;
+    box-shadow: 3px 0 6px rgba(0,0,0, 0.60);
+}
+
+.portrait:hover{
+    background: url("/assets/coffee2.jpg");
+    background-size: cover;
+}
+
+.bio{
+    grid-area: bio;
+    font-size: 1.5rem;
+}
+
+.contact{
+    width: 100%;
+    margin-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 2rem;
+    color: #d1d7e0;
+}
+
+span{
+    color: #802bb1;
+}
+
+.box{
+    border: 3px #802bb1 solid;
+    padding: .5rem 1.5rem;
+    margin-bottom: 3rem;
+    transition: all 0.5s ease-out;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box:hover{
+    padding: 1.5rem 2.5rem;
+    background: #802bb1;
+}
+
+.box:hover span{
+    color: #2d283e;
+}
+
+@media only screen and (max-width: 1000px){
+    .content{
+        padding: 1px 10px 0px 10px;
+    }
+    
+    .about-info{
+        display: block;
+    }
+
+    .bio{
+        width: 95vw;
+        font-size: 1rem;
+    }
+
+    .contact{
+        font-size: 1.2rem;
+        display: block;
+        align-items: center;
+    }
+}
+@media only screen and (max-width: 500px){
+    h1{
+        font-size: 40px;
+    }
+
+    .bio{
+        width: 90vw;
+    }
+}
